@@ -26,3 +26,9 @@ Jokainen tiedostu sisältää sarake otsikot ensimmäisellä rivillä. Tiedostoj
 
 Tämä korpus sisältää otsikoita jotuista jotka on julkaistu tai päivitetty 11/2018 jälkeen. 
 Osa otsikoista on huomattavasti vanhempia. Tämä arkisto on koottu robottien avulla ja päivittyy automaattisesti.
+
+Olen käyttänyt tätä dataa mm. henkilökohtaisen suositusjärjestelmän rakentamiseen. Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa, kerro siitä niin laitan nimesi tähän readme:n. 
+
+Lisenssi
+
+MIT
