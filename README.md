@@ -1,4 +1,4 @@
-# Finnish Language Corpus
+# Finnish Language Text Corpus 🇫🇮 
 
 This is a Finnish language news headlines text corpus. 
 
@@ -7,7 +7,7 @@ The intended usage of this data is for linguistic research and machine learning.
 
 ----
 
-### Ja sama suomeksi:
+## Ja sama suomeksi
 
 Tämä on iltapäivälehtien ostikoista koottu tekstikorpus koneoppimiseen.
 
@@ -24,7 +24,5 @@ Jokainen tiedostu sisältää sarake otsikot ensimmäisellä rivillä. Tiedostoj
 |`lead` | lisäteksti |
 
 
-Tämä korpus sisältää otsikoita jotuista jotka on julkaistu tai päivitetty 11/2018 jälkeen. Osa otsikoista on huomattavasti vanhempia.
-
-
-Tämä arkisto on koottu robottien avulla ja päivittyy automaattisesti.
+Tämä korpus sisältää otsikoita jotuista jotka on julkaistu tai päivitetty 11/2018 jälkeen. 
+Osa otsikoista on huomattavasti vanhempia. Tämä arkisto on koottu robottien avulla ja päivittyy automaattisesti.
