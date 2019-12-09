@@ -36,7 +36,7 @@ Jokainen csv-tiedosto sisältää sarake-otsikot ensimmäisellä rivillä. Tiedo
 |`otsikko` | uutisartikkelin otsikko | string, NOT NULL |
 |`tiivistelma` | artikkelia kuvaava lisäteksti | string, NULL |
 
-Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [ilmoita asiasta](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria ja oheinen kuva on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
+Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria ja oheinen kuva on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
 Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen. Osa otsikoista on alunperin huomattavasti vanhempia, mutta kyseisiä artikkeleja on muokattu myöhemmin. 
 
