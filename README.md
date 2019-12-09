@@ -2,7 +2,7 @@
 
 <img src='https://img.shields.io/github/commit-activity/m/nkrusch/fi-news-corpus' /> <img src='https://img.shields.io/github/last-commit/nkrusch/fi-news-corpus' /> <img src="https://img.shields.io/github/issues/nkrusch/fi-news-corpus" /> <img src='https://img.shields.io/github/repo-size/nkrusch/fi-news-corpus' />
 
-<img src='https://i.imgur.com/DxowZ0i.jpg' alt='kuva' />
+<img src='https://i.imgur.com/KlXF2d8.png' alt='kuva' />
 
 Tämä on iltapäivälehtien otsikoista koottu tekstikorpus koneoppimiseen. Tämä aineisto sisältää uutisotsikoista koottuja tekstejä, jotka on tallennettu csv tiedostoihin. Jokaisesta uutisesta on tallennettu otsikko, lyhyt lisäteksti sekä julkaisupäivämäärä. Arkisto on järjestetty kronologisesti.
 
@@ -28,7 +28,7 @@ This dataset is a collection of news headlines and short leading snippets of tex
 
 Tämä arkisto koostuu useasta osasta (shard) joista jokainen sisältä saman verran rivejä (500). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat julkaistut artikkelit. 
  
-Jokainen csv-tiedosto sisältää sarake-otsikot ensimmäisellä rivillä. Tiedostojen yleinen järjestys on seuraava:
+Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedostojen yleinen järjestys on seuraava:
 
 | Sarake | Kuvaus | Tyyppi | 
 | --- | --- | --- | 
@@ -38,7 +38,7 @@ Jokainen csv-tiedosto sisältää sarake-otsikot ensimmäisellä rivillä. Tiedo
 
 Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria ja oheinen kuva on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
-Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen. Osa otsikoista on alunperin huomattavasti vanhempia, mutta kyseisiä artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen. 
+Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen. Osa otsikoista on alun perin huomattavasti vanhempia, mutta kyseisiä artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen. 
 
 Tämä arkisto on koottu robottien avulla iltapäivälehtiotsikoista ja päivittyy automaattisesti tasaisin väliajoin.
 
