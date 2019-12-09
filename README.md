@@ -41,7 +41,7 @@ Nimi | Kuvaus | Linkki
 *(tyhjä)* | *(tyhjä)* | *(tyhjä)*
 
 
-#### Lisääykset projektilistaan 
+#### Lisäykset projektilistaan 
  
 Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa:
 
