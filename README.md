@@ -5,12 +5,12 @@
 Tämä on iltapäivälehtien ostikoista koottu tekstikorpus koneoppimiseen. Tämä aineisto sisältää uutisotsikoista koottuja tekstejä, jotka on tallennettu csv tiedostoihin. Jokaisesta uutisesta on tallennettu otsikko, lyhyt lisäteksti sekä julkaisupäivämäärä. Arkisto on järjestetty kronologisesti.
 
 ---
-> **Finnish Language Text Corpus**
->
-> *This is a Finnish language news headlines text corpus.*
->
-> This dataset is a collection of news headlines and short leading snippets of text, organized by date, into csv files.
-> The intended usage of this data is for linguistic research and machine learning.
+**Finnish Language Text Corpus**
+
+*This is a Finnish language news headlines text corpus.*
+
+This dataset is a collection of news headlines and short leading snippets of text, organized by date, into csv files. The intended usage of this data is for linguistic research and machine learning.
+
 ---
 
 ### Tiedostojen kuvaus
@@ -31,13 +31,17 @@ Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 
 
 Tämä arkisto on koottu robottien avulla iltapäivälehtiotsikoista ja päivittyy automaattisesti tasaisin väliajoin.
 
+
 ### Projektilista
 
 Nimi | Kuvaus | Linkki
 --- | --- | ---
 *(tyhjä)* | *(tyhjä)* | *(tyhjä)*
 
-Olen käyttänyt tätä dataa mm. henkilökohtaisen suositusjärjestelmän rakentamiseen. Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa:
+
+#### Lisääykset projektilistaan 
+ 
+Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa:
 
 1. Fork this repo
 2. Lisää nimesi tähän readme:n projektilistaan 
