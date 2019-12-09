@@ -58,6 +58,11 @@ Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa:
 2. Lisää nimesi tähän readme:n projektilistaan 
 3. [Submit a PR](https://github.com/nkrusch/fi-news-corpus/pulls)
 
+---
+<strong><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/1v42xMF"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"> &nbsp; &nbsp; <span style="margin-left:15px;font-size:28px !important;">Jos tämä projekti oli sinulle hyödyllinen, voit kiittää tarjoamalla kahvin!</span></a></strong>
+
+---
+
 ## Lisenssi
 
 MIT
