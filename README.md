@@ -15,9 +15,18 @@ This dataset is a collection of news headlines and short leading snippets of tex
 
 ---
 
+### Avainsanat / Keywords:
+
+- Suomenkieliset uutisotsikot
+- Kootut Lehtiartikkelit
+- Iltapäivälehtien otsikot
+- Koneoppi, Machine learning
+- Data science
+- Kielen rakenneanalyysi
+
 ### Tiedostojen kuvaus
 
-Tämä arkisto koostuu useasta osasta (shard) joista jokainen sisältä saman verran rivejä. Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat julkaistut artikkelit.
+Tämä arkisto koostuu useasta osasta (shard) joista jokainen sisältä saman verran rivejä (500). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat julkaistut artikkelit. 
  
 Jokainen csv-tiedosto sisältää sarake-otsikot ensimmäisellä rivillä. Tiedostojen yleinen järjestys on seuraava:
 
