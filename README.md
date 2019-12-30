@@ -26,7 +26,7 @@ This dataset is a collection of news headlines and short leading snippets of tex
 
 ### Tiedostojen kuvaus
 
-Tämä arkisto koostuu useasta osasta (shard) joista jokainen sisältä saman verran rivejä (500). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat julkaistut artikkelit. 
+Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä saman verran rivejä (500). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat artikkelit. 
  
 Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedostojen yleinen järjestys on seuraava:
 
@@ -58,9 +58,6 @@ Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https:/
 
 Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen. Osa otsikoista on alun perin huomattavasti vanhempia, mutta kyseisiä artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen. 
 
-Tämä arkisto on koottu robottien avulla iltapäivälehtiotsikoista ja päivittyy automaattisesti tasaisin väliajoin.
-
-
 ### Projektilista
 
 Nimi | Kuvaus | Linkki
@@ -76,11 +73,12 @@ Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa:
 2. Lisää nimesi tähän readme:n projektilistaan 
 3. [Submit a PR](https://github.com/nkrusch/fi-news-corpus/pulls)
 
+### Lisenssi
+
+MIT
+
 ---
 <strong><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/1v42xMF"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"> &nbsp; &nbsp; <span style="margin-left:15px;font-size:28px !important;">Jos tämä projekti oli sinulle hyödyllinen, voit kiittää tarjoamalla kahvin!</span></a></strong>
 
 ---
 
-## Lisenssi
-
-MIT
