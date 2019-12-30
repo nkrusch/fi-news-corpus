@@ -35,8 +35,26 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 |`paivamaara` | julkaisupäivä | ISO 8601 (UTC) |
 |`otsikko` | uutisartikkelin otsikko | string, NOT NULL |
 |`tiivistelma` | artikkelia kuvaava lisäteksti | string, NULL |
+|`kuva` | artikkelin kuva | string, NULL |
 
-Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria ja oheinen kuva on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
+
+#### Tilastot
+
+| Vuosi | Artikkelien lukumäärä |
+| :---: | :---: |
+| 2019 | 48511 |
+| 2018 | 9047 |
+| 2017 | 196 |
+| 2016 | 131 |
+| 2015 | 59 |
+| 2014 | 13 |
+| **Yhteensä** | **57957** |
+
+Vanhin artikkeli: `2014-01-21` <br/>
+Uusing artikkeli: `2019-12-30` <br/>
+Tiedostoja: `116`
+
+Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
 Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen. Osa otsikoista on alun perin huomattavasti vanhempia, mutta kyseisiä artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen. 
 
