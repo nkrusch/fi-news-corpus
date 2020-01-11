@@ -1,2 +1,8 @@
 theme: jekyll-theme-cayman
 source: docs
+
+title: Suomenkielinen Tekstikorpus
+description: Iltapäivälehtien otsikoista koottu tekstikorpus koneoppimiseen.
+google_analytics: UA-81731558-12
+github:
+  zip_url: https://github.com/nkrusch/fi-news-corpus/archive/master.zip
