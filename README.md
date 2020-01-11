@@ -15,7 +15,7 @@
 - Suomenkieliset uutisotsikot
 - Kootut Lehtiartikkelit
 - Iltapäivälehtien otsikot
-- Koneoppi, Machine learning
+- Koneoppi, machine learning
 - Data science
 - Kielen rakenneanalyysi
 
