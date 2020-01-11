@@ -2,10 +2,6 @@
 
 <img src='https://img.shields.io/github/commit-activity/m/nkrusch/fi-news-corpus' /> <img src='https://img.shields.io/github/last-commit/nkrusch/fi-news-corpus' /> <img src="https://img.shields.io/github/issues/nkrusch/fi-news-corpus" /> <img src='https://img.shields.io/github/repo-size/nkrusch/fi-news-corpus' />
 
-<img src='https://i.imgur.com/KlXF2d8.png' alt='kuva' />
-
-Tämä on iltapäivälehtien otsikoista koottu tekstikorpus koneoppimiseen. Tämä aineisto sisältää uutisotsikoista koottuja tekstejä, jotka on tallennettu csv tiedostoihin. Jokaisesta uutisesta on tallennettu otsikko, lyhyt lisäteksti sekä julkaisupäivämäärä. Arkisto on järjestetty kronologisesti.
-
 ---
 **Finnish Language Text Corpus**
 
@@ -14,6 +10,11 @@ Tämä on iltapäivälehtien otsikoista koottu tekstikorpus koneoppimiseen. Täm
 This dataset is a collection of news headlines and short leading snippets of text, organized by date, into csv files. The intended usage of this data is for linguistic research and machine learning.
 
 ---
+
+<img src='https://i.imgur.com/KlXF2d8.png' alt='kuva' />
+
+<h4>Tämä on iltapäivälehtien otsikoista koottu tekstikorpus koneoppimiseen. Tämä aineisto sisältää uutisotsikoista koottuja tekstejä, jotka on tallennettu csv tiedostoihin. Jokaisesta uutisesta on tallennettu otsikko, lyhyt lisäteksti sekä julkaisupäivämäärä. Arkisto on järjestetty kronologisesti.</h4>
+
 
 ### Avainsanat / Keywords:
 
