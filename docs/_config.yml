@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 source: docs
 
-title: Suomenkielinen Tekstikorpus
+title: Suomenkielinen Tekstikorpus 🇫🇮
 description: Iltapäivälehtien otsikoista koottu tekstikorpus koneoppimiseen.
 google_analytics: UA-81731558-12
 show_downloads: true
