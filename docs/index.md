@@ -9,6 +9,13 @@
 - Data science
 - Kielen rakenneanalyysi
 
+<div style='text-align:center'>
+<a class="github-button" href="https://github.com/nkrusch/fi-news-corpus" data-icon="octicon-star" data-size="large" aria-label="Star nkrusch/fi-news-corpus on GitHub">Star</a>
+<a class="github-button" href="https://github.com/nkrusch/fi-news-corpus/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork nkrusch/fi-news-corpus on GitHub">Fork</a>
+<a class="github-button" href="https://github.com/nkrusch" data-size="large" aria-label="Follow @nkrusch on GitHub">Follow @nkrusch</a>
+<a class="github-button" href="https://github.com/nkrusch/fi-news-corpus/issues" data-icon="octicon-issue-opened" data-size="large" aria-label="Issue nkrusch/fi-news-corpus on GitHub">Issue</a>
+</div>
+
 
 ## Aloita Tästä
 
@@ -82,3 +89,5 @@ print('Kuvaus: ' + articles[-1][2])
 print('Kuva: ' + articles[-1][3]) 
 print('=' * 40)
 ```
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
