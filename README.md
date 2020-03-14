@@ -63,6 +63,21 @@ Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https:/
 Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen. Osa otsikoista on alun perin huomattavasti vanhempia, mutta kyseisiä artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen. 
 
 
+### Projektilista
+
+Nimi | Kuvaus | Linkki
+--- | --- | ---
+*(tyhjä)* | *(tyhjä)* | *(tyhjä)*
+
+
+#### Lisäykset projektilistaan 
+ 
+Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa:
+
+1. Fork this repo
+2. Lisää nimesi tähän readme:n projektilistaan 
+3. [Submit a PR](https://github.com/nkrusch/fi-news-corpus/pulls)
+
 ### Lisenssi
 
 [MIT](/LICENSE)
