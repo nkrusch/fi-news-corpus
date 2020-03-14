@@ -25,10 +25,10 @@
 
 Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttää tätä korpusta. [Asenna Jupyter](https://jupyter.org/install.html) paikallisesti jos haluat interaktiivisen demon.
 
-| # | Kuvaus |
-| --- | --- |
-| 1. | **[Aloita täältä](/examples/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja |
-| 2. | **[Suosituimmat jutunaiheet](/examples/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
+| Ohjeet |
+| --- |
+| **[1. Aloita täältä](/examples/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja |
+| **[2. Suosituimmat jutunaiheet](/examples/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
 
 ---
 
