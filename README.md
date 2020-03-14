@@ -23,7 +23,7 @@
 
 ### Ohjeet Koodiesimerkit & Käyttö
 
-Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttää tätä korpusta. Asenna [Jupyter](https://jupyter.org/) paikallisesti jos haluat interaktiivisen demon.
+Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttää tätä korpusta. [Asenna Jupyter](https://jupyter.org/install.html) paikallisesti jos haluat interaktiivisen demon.
 
 **[1. Aloita täältä](/examples/getting_started.ipynb)**
 
@@ -38,7 +38,7 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 
 | Sarake | Kuvaus | Tyyppi | 
 | --- | --- | --- | 
-|`paivamaara` | julkaisupäivä | ISO 8601 (UTC) |
+|`paivamaara` | alkuperäinen julkaisupäivä | ISO 8601 (UTC) |
 |`otsikko` | uutisartikkelin otsikko | string, NOT NULL |
 |`tiivistelma` | artikkelia kuvaava lisäteksti | string, NULL |
 |`kuva` | artikkelin kuva | string, NULL |
@@ -63,8 +63,9 @@ Tiedostojen lukumäärä: `135`
 
 Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
-Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen. Osa otsikoista on alun perin huomattavasti vanhempia, mutta kyseisiä artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen. 
+Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen *sen toisen suositun iltapäivälehden* www-sivuilla. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. 
 
+Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita.
 
 ### Projektilista
 
