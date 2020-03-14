@@ -19,9 +19,13 @@
 - Data science
 - Kielen rakenneanalyysi
 
+--- 
+
 ### Koodiesimerkit & Käyttö
 
 **[Täältä löydät enemmän tietoa](https://korpus.neea.dev/)**
+
+---
 
 ### Tiedostojen kuvaus
 
