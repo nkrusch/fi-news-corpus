@@ -65,4 +65,4 @@ Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 
 
 ### Lisenssi
 
-MIT
+[MIT](/LICENSE)
