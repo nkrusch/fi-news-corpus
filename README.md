@@ -19,6 +19,10 @@
 - Data science
 - Kielen rakenneanalyysi
 
+### Koodiesimerkit & Käyttö
+
+**[Täältä löydät enemmän tietoa](https://korpus.neea.dev/)**
+
 ### Tiedostojen kuvaus
 
 Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä saman verran rivejä (500). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat artikkelit. 
@@ -53,6 +57,7 @@ Tiedostoja: `135`
 Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
 Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen. Osa otsikoista on alun perin huomattavasti vanhempia, mutta kyseisiä artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen. 
+
 
 ### Lisenssi
 
