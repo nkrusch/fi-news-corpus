@@ -29,7 +29,7 @@ Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttä
 | --- |
 | **[1. Aloita täältä](/examples/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja |
 | **[2. Suosituimmat jutunaiheet](/examples/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
-
+| **[3. Datataulukot](/examples/plotting_frequencies.ipynb)**<br/>Miten luoda taulukoita sanoista | 
 ---
 
 ### Tiedostojen kuvaus
