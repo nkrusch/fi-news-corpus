@@ -23,7 +23,7 @@
 
 ### Koodiesimerkit & Käyttö
 
-**[Täältä löydät enemmän tietoa](https://korpus.neea.dev/)**
+**[Täältä löydät tietoa ja koodiesimerkkejä](https://korpus.neea.dev/)**
 
 ---
 
@@ -56,7 +56,7 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 
 Vanhin artikkeli: `2014-01-21` <br/>
 Uusing artikkeli: `2020-03-13` <br/>
-Tiedostoja: `135`
+Tiedostojen lukumäärä: `135`
 
 Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
