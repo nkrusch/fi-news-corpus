@@ -23,7 +23,7 @@
 
 ### Koodiesimerkit & Käyttö
 
-**[Täältä löydät tietoa ja koodiesimerkkejä](https://korpus.neea.dev/)**
+**[Täältä löydät tietoa ja koodiesimerkkejä](/workbooks)**
 
 ---
 
