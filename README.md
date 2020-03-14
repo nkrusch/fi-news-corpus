@@ -1,4 +1,4 @@
-# Suomenkielinen Tekstikorpus 🇫🇮 
+# Suomenkielinen Tekstikorpus 🇫🇮 📰
 
 <img src='https://img.shields.io/github/commit-activity/m/nkrusch/fi-news-corpus' /> <img src='https://img.shields.io/github/last-commit/nkrusch/fi-news-corpus' /> <img src="https://img.shields.io/github/issues/nkrusch/fi-news-corpus" /> <img src='https://img.shields.io/github/repo-size/nkrusch/fi-news-corpus' />
 
@@ -21,9 +21,12 @@
 
 --- 
 
-### Koodiesimerkit & Käyttö
+### Ohjeet Koodiesimerkit & Käyttö
 
-**[Täältä löydät tietoa ja koodiesimerkkejä](/workbooks)**
+Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttää tätä korpusta. Asenna [Jupyter](https://jupyter.org/) paikallisesti jos haluat interaktiivisen demon.
+
+**[1. Aloita täältä](/examples/getting_started.ipynb)**
+
 
 ---
 
