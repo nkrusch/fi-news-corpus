@@ -21,7 +21,7 @@
 
 --- 
 
-### Ohjeet Koodiesimerkit & Käyttö
+### Ohjeet, Koodiesimerkit & Käyttö
 
 Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttää tätä korpusta. [Asenna Jupyter](https://jupyter.org/install.html) paikallisesti jos haluat interaktiivisen demon.
 
