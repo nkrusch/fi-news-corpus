@@ -25,9 +25,11 @@
 
 Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttää tätä korpusta. [Asenna Jupyter](https://jupyter.org/install.html) paikallisesti jos haluat interaktiivisen demon.
 
+Voit käyttää mitä tahansa ohjelmointikieltä mikäli kyseinen kieli tukee csv-tiedostojen kanssa työskentelyä. Nämä seuraavat esimerkit on kirjoitettu Python kielellä.
+
 | Ohjeet |
 | --- |
-| **[1. Aloita täältä](/workbooks/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja |
+| **[1. ★ Aloita täältä](/workbooks/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja |
 | **[2. Suosituimmat jutunaiheet](/workbooks/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
 | **[3. Datataulukot](/workbooks/plotting_frequencies.ipynb)**<br/>Miten luoda taulukoita sanoista | 
 ---
