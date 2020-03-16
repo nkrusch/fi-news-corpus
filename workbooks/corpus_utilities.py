@@ -39,3 +39,29 @@ def load_articles(directory_path):
                 rows += 1
 
     return articles
+
+
+def longest_base_word(word_list):
+    """Given a list of words, this function finds the longest common sequence from
+    the beginning that is common between each words in the list"""
+
+    unique_words = list(set(word_list))
+
+    # if list contains exactly 1 words, return that
+    if len(unique_words) == 1:
+        return unique_words[0]
+
+    max_len, res = -1, ['']
+
+    # find longest word
+    for ele in word_list:
+        if len(ele) > max_len:
+            max_len = len(ele)
+
+    # loop substrings
+    for idx in range(1, max_len):
+        tmp = list(set([t[0:idx] for t in word_list]))
+        if len(tmp) > 1:
+            break
+        res = tmp
+    return res[0]
