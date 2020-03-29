@@ -13,10 +13,10 @@
 #### Avainsanat / Keywords:
 
 - Suomenkieliset uutisotsikot
-- Kootut Lehtiartikkelit
+- Kootut lehtiartikkelit
 - Iltapäivälehtien otsikot
-- Koneoppi, machine learning
-- Data science
+- Koneoppi
+- Datatiede
 - Kielen rakenneanalyysi
 
 --- 
