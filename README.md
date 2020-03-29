@@ -10,7 +10,7 @@
 
 ### Tämä on iltapäivälehtien otsikoista koottu tekstikorpus koneoppimiseen. Tämä aineisto sisältää uutisotsikoista koottuja tekstejä, jotka on tallennettu csv tiedostoihin. Jokaisesta uutisesta on tallennettu otsikko, lyhyt lisäteksti, kuva, sekä julkaisupäivämäärä. Arkisto on järjestetty kronologisesti.
 
-#### Avainsanat / Keywords:
+#### Avainsanat:
 
 - Suomenkieliset uutisotsikot
 - Kootut lehtiartikkelit
@@ -84,9 +84,9 @@ Nimi | Kuvaus | Linkki
  
 Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa:
 
-1. Fork this repo
+1. Forkkaa tämä repo
 2. Lisää nimesi tähän readme:n projektilistaan 
-3. [Submit a PR](https://github.com/nkrusch/fi-news-corpus/pulls)
+3. [Lähetä vetopyyntö](https://github.com/nkrusch/fi-news-corpus/pulls)
 
 ### Lisenssi
 
