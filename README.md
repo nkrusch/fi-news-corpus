@@ -4,7 +4,7 @@
 
 **Finnish Language Text Corpus**
 
-*This is a Finnish language news headlines text corpus.* This dataset is a collection of news headlines and short leading snippets of text, organized by date, into csv files. The intended usage of this data is for linguistic research and machine learning.
+*This is a Finnish language news headlines text corpus.* This dataset is a collection of news headlines and short summaries of text, organized by date, into csv files. The intended use of this dataset is for linguistic research and machine learning. The remainder of this document will be in Finnish.
 
 <img src='https://i.imgur.com/KlXF2d8.png' alt='kuva' />
 
