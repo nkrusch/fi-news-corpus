@@ -27,12 +27,10 @@ Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttä
 
 Voit käyttää mitä tahansa ohjelmointikieltä mikäli kyseinen kieli tukee csv-tiedostojen kanssa työskentelyä. Nämä seuraavat esimerkit on kirjoitettu Python kielellä.
 
-| Ohjeet |
-| --- |
-| **[1. ★ Aloita täältä](/workbooks/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja |
-| **[2. Suosituimmat jutunaiheet](/workbooks/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
-| **[3. Datataulukot](/workbooks/plotting_frequencies.ipynb)**<br/>Miten luoda taulukoita sanoista | 
-| **[4. Erisnimien tunnistus](/workbooks/finding_proper_nouns.ipynb)**<br/>Erisnimien etsintää uutisotsikoista |
+| Ohjeet ||
+| --- | --- |
+| **[1. ★ Aloita täältä](/workbooks/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja | **[2. Suosituimmat jutunaiheet](/workbooks/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
+| **[3. Datataulukot](/workbooks/plotting_frequencies.ipynb)**<br/>Miten luoda taulukoita sanoista | **[4. Erisnimien tunnistus](/workbooks/finding_proper_nouns.ipynb)**<br/>Erisnimien etsintää uutisotsikoista |
 
 ---
 
@@ -72,21 +70,6 @@ Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https:/
 Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 4/11/2018 jälkeen *sen toisen suositun iltapäivälehden* www-sivuilla. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. 
 
 Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita.
-
-### Projektilista
-
-Nimi | Kuvaus | Linkki
---- | --- | ---
-*(tyhjä)* | *(tyhjä)* | *(tyhjä)*
-
-
-#### Lisäykset projektilistaan 
- 
-Jos käytät tätä arkistoa jossain tutkimuksessa tai projektissa:
-
-1. Forkkaa tämä repo
-2. Lisää nimesi tähän readme:n projektilistaan 
-3. [Lähetä vetopyyntö](https://github.com/nkrusch/fi-news-corpus/pulls)
 
 ### Lisenssi
 
