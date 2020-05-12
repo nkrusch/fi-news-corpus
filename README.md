@@ -27,10 +27,12 @@ Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttä
 
 Voit käyttää mitä tahansa ohjelmointikieltä mikäli kyseinen kieli tukee csv-tiedostojen kanssa työskentelyä. Nämä seuraavat esimerkit on kirjoitettu Python kielellä.
 
-| Ohjeet ||
-| --- | --- |
-| **[1. ★ Aloita täältä](/workbooks/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja | **[2. Suosituimmat jutunaiheet](/workbooks/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
-| **[3. Datataulukot](/workbooks/plotting_frequencies.ipynb)**<br/>Miten luoda taulukoita sanoista | **[4. Erisnimien tunnistus](/workbooks/finding_proper_nouns.ipynb)**<br/>Erisnimien etsintää uutisotsikoista |
+| Esimerkkejä |
+| --- |
+| **[1. ★ Aloita täältä](/workbooks/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja | 
+| **[2. Suosituimmat jutunaiheet](/workbooks/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
+| **[3. Datataulukot](/workbooks/plotting_frequencies.ipynb)**<br/>Miten luoda taulukoita sanoista | 
+| **[4. Erisnimien tunnistus](/workbooks/finding_proper_nouns.ipynb)**<br/>Erisnimien etsintää uutisotsikoista |
 
 ---
 
