@@ -48,7 +48,7 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 |`otsikko` | uutisartikkelin otsikko | string, NOT NULL |
 |`tiivistelma` | artikkelia kuvaava lisäteksti | string, NULL |
 |`kuva` | artikkelin kuva | string, NULL |
-
+|`id` | uniikki tunniste |
 
 #### Tilastot
 
