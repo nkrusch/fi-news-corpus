@@ -21,21 +21,6 @@
 
 --- 
 
-### Ohjeet, Koodiesimerkit & Käyttö
-
-Seuraavat Jupyter Notebooksit on tarkoitettu esimerkeiksi siitä, miten käyttää tätä korpusta. [Asenna Jupyter](https://jupyter.org/install.html) paikallisesti jos haluat interaktiivisen demon.
-
-Voit käyttää mitä tahansa ohjelmointikieltä mikäli kyseinen kieli tukee csv-tiedostojen kanssa työskentelyä. Nämä seuraavat esimerkit on kirjoitettu Python kielellä.
-
-| Esimerkkejä |
-| --- |
-| **[1. ★ Aloita täältä](/workbooks/getting_started.ipynb)**<br/>Kuinka lukea korpus tiedostoja | 
-| **[2. Suosituimmat jutunaiheet](/workbooks/word_frequency.ipynb)**<br/>Löydä suosituimmat jutunaiheet aikavälillä |
-| **[3. Datataulukot](/workbooks/plotting_frequencies.ipynb)**<br/>Miten luoda taulukoita sanoista | 
-| **[4. Erisnimien tunnistus](/workbooks/finding_proper_nouns.ipynb)**<br/>Erisnimien etsintää uutisotsikoista |
-
----
-
 ### Tiedostojen kuvaus
 
 Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä saman verran rivejä (500). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat artikkelit. 
