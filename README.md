@@ -39,19 +39,20 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 
 | Vuosi | Artikkelien lukumäärä |
 | :---: | :---: |
-| 2020 | 19527 |
+| 2020 | 23015 |
 | 2019 | 48693 |
-| 2018 | 9082 |
-| 2017 | 215 |
-| 2016 | 142 |
+| 2018 | 9097 |
+| 2017 | 218 |
+| 2016 | 145 |
 | 2015 | 65 |
 | 2014 | 15 |
+| 2013 | 1 |
 | 2012 | 1 |
-| **Yhteensä** | **77740** |
+| **Yhteensä** | **81250** |
 
 Vanhin artikkeli: `2012-07-25` <br/>
-Uusing artikkeli: `2020-06-11` <br/>
-Tiedostojen lukumäärä: `156`
+Uusing artikkeli: `2020-07-12` <br/>
+Tiedostojen lukumäärä: `163`
 
 Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
