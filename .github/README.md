@@ -51,7 +51,7 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 | **Yhteensä** | **81250** |
 
 Vanhin artikkeli: `2012-07-25` <br/>
-Uusing artikkeli: `2020-07-12` <br/>
+Uusin artikkeli: `2020-07-12` <br/>
 Tiedostojen lukumäärä: `163`
 
 Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
