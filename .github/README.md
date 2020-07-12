@@ -62,4 +62,4 @@ Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätes
 
 ### Lisenssi
 
-[MIT](/LICENSE)
+[MIT](/.github/LICENSE)
