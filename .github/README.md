@@ -15,6 +15,7 @@
 - Suomenkieliset uutisotsikot
 - Kootut lehtiartikkelit
 - Iltapäivälehtien otsikot
+- Uutistrendit
 - Koneoppi
 - Datatiede
 - Kielen rakenneanalyysi
