@@ -1,6 +1,6 @@
 # Suomenkielinen Tekstikorpus 🇫🇮 📰
 
-<img src='https://img.shields.io/github/commit-activity/m/nkrusch/fi-news-corpus?style=flat-square' /> <img src='https://img.shields.io/github/last-commit/nkrusch/fi-news-corpus?style=flat-square' /> <img src="https://img.shields.io/github/issues/nkrusch/fi-news-corpus?style=flat-square" /> <img src='https://img.shields.io/github/repo-size/nkrusch/fi-news-corpus?style=flat-square' />
+<img src='https://img.shields.io/github/last-commit/nkrusch/fi-news-corpus?style=flat-square' /> <img src='https://img.shields.io/github/repo-size/nkrusch/fi-news-corpus?style=flat-square' />
 
 **Finnish Language Text Corpus**
 
