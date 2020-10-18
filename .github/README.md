@@ -55,7 +55,7 @@ Vanhin artikkeli: `2012-07-25` <br/>
 Uusin artikkeli: `2020-09-27` <br/>
 Tiedostojen lukumäärä: `181`
 
-Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
+Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](hello@neea.dev). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
 Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 11.4.2018 jälkeen *sen toisen suositun iltapäivälehden* www-sivuilla. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. 
 
