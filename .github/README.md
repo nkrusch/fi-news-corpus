@@ -1,6 +1,6 @@
 # Suomenkielinen Tekstikorpus 🇫🇮 📰
 
-<img src='https://img.shields.io/github/commit-activity/m/nkrusch/fi-news-corpus' /> <img src='https://img.shields.io/github/last-commit/nkrusch/fi-news-corpus' /> <img src="https://img.shields.io/github/issues/nkrusch/fi-news-corpus" /> <img src='https://img.shields.io/github/repo-size/nkrusch/fi-news-corpus' />
+<img src='https://img.shields.io/github/last-commit/nkrusch/fi-news-corpus?style=flat-square' /> <img src='https://img.shields.io/github/repo-size/nkrusch/fi-news-corpus?style=flat-square' />
 
 **Finnish Language Text Corpus**
 
@@ -55,7 +55,7 @@ Vanhin artikkeli: `2012-07-25` <br/>
 Uusin artikkeli: `2020-10-29` <br/>
 Tiedostojen lukumäärä: `188`
 
-Jos haluat enemmän tietoa jokaisesta uutisartikkelista, [kerro minulle](https://github.com/nkrusch/fi-news-corpus/issues). Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
+Jos haluat enemmän tietoa jokaisesta uutisartikkelista, <a href="mailto:hello@neea.dev">kerro minulle</a>. Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
 Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 11.4.2018 jälkeen *sen toisen suositun iltapäivälehden* www-sivuilla. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. 
 
