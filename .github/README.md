@@ -40,20 +40,20 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 
 | Vuosi | Artikkelien lukumäärä |
 | :---: | :---: |
-| 2020 | 35689 |
+| 2020 | 39364 |
 | 2019 | 48696 |
-| 2018 | 9105 |
-| 2017 | 233 |
-| 2016 | 151 |
+| 2018 | 9108 |
+| 2017 | 237 |
+| 2016 | 153 |
 | 2015 | 66 |
 | 2014 | 15 |
 | 2013 | 1 |
 | 2012 | 1 |
-| **Yhteensä** | **93957** |
+| **Yhteensä** | **97641** |
 
 Vanhin artikkeli: `2012-07-25` <br/>
-Uusin artikkeli: `2020-10-29` <br/>
-Tiedostojen lukumäärä: `188`
+Uusin artikkeli: `2020-11-29` <br/>
+Tiedostojen lukumäärä: `196`
 
 Jos haluat enemmän tietoa jokaisesta uutisartikkelista, <a href="mailto:hello@neea.dev">kerro minulle</a>. Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
 
