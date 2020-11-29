@@ -1,7 +1,5 @@
 # Suomenkielinen Tekstikorpus 🇫🇮 📰
 
-<img src='https://img.shields.io/github/last-commit/nkrusch/fi-news-corpus?style=flat-square' /> <img src='https://img.shields.io/github/repo-size/nkrusch/fi-news-corpus?style=flat-square' />
-
 **Finnish Language Text Corpus**
 
 *This is a Finnish language news headlines text corpus.* This dataset is a collection of news headlines and short summaries of text, organized by date, into csv files. The intended use of this dataset is for linguistic research and machine learning. The remainder of this document will be in Finnish.
