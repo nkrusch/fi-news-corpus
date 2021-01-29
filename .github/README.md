@@ -54,11 +54,20 @@ Vanhin artikkeli: `2012-07-25`<br/>
 Uusin artikkeli: `2021-01-29`<br/>
 Tiedostojen lukumäärä: `210`
 
-Jos haluat enemmän tietoa jokaisesta uutisartikkelista, <a href="mailto:hello@neea.dev">kerro minulle</a>. Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa.
+Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jokaisesta uutisartikkelista, <a href="mailto:hello@neea.dev">kerro minulle</a>. Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa. Päivitän tätä korpusta kuukausittain.
 
-Tämä korpus sisältää otsikoita jutuista jotka on julkaistu tai päivitetty 11.4.2018 jälkeen Iltalehden www-sivuilla. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. 
+#### Ajanjaksot
 
-Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita.
+Tämä on kronologinen kokoelma artikkeleja. Käytä [git tagejä](https://github.com/nkrusch/fi-news-corpus/releases) jos haluat löytää artikkeleja tiettyyn päivämäärään asti. Vaihtoehtoisesti voit rajata tiedostoja tunnisteiden perusteella.
+
+| Vuosi | Ensimmäinen | Viimeinen |
+| --- | --- | --- |
+| 2021 | `C8695FAF6FA548A4887678FCC91275CF`	 | - |
+| 2020 | `91EC5FB8EC88429588DC33EB1F0AD285` | `E4C877777DAA4F9599CF4600D5EC477A` |
+| 2019 | `08B54A39B9B5438B9CB94CE548D5321F` | `DF6A0D528F5F4041BC2AEEE156937EFC` |
+| 2018 | `201712282200634312` <sup>*</sup> | `0FF72F755B554FA889147BFBACAAE724` |
+
+<sup>*)</sup> Tämä korpus alkaa virallisesti päivämäärastä 11.4.2018. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. Tästä syystä vanhempien artikkelien kokoelma (ja vuoden ensimmäisen artikkelin tunniste) saattaa muuttua.
 
 ### Lisenssi
 
