@@ -67,7 +67,7 @@ Tämä on kronologinen kokoelma artikkeleja. Käytä [git tagejä](https://githu
 | 2019 | `08B54A39B9B5438B9CB94CE548D5321F` | `DF6A0D528F5F4041BC2AEEE156937EFC` |
 | 2018 | `201712282200634312` <sup>*</sup> | `0FF72F755B554FA889147BFBACAAE724` |
 
-<sup>*)</sup> Tämä korpus alkaa virallisesti päivämäärastä 11.4.2018. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. Vanhempien artikkelien kokoelma (ja vuoden ensimmäisen artikkelin tunniste) saattaa muuttua.
+<sup>*)</sup> Tämä korpus alkaa virallisesti päivämäärastä 11.4.2018. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. Vanhempien artikkelien kokoelma (ja vuoden 2018 ensimmäisen artikkelin tunniste) saattaa muuttua.
 
 ### Lisenssi
 
