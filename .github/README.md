@@ -2,7 +2,7 @@
 
 **Finnish Language Text Corpus**
 
-*This is a Finnish language news headlines text corpus.* This dataset is a collection of news headlines and short summaries of text, organized by date, into csv files. The intended use of this dataset is for machine learning or related use case. The remainder of this document will be in Finnish.
+This is a Finnish language news headlines text corpus. This dataset is a collection of news headlines and short summaries of text, organized by date, into csv files. The intended use of this dataset is for machine learning or related use case. The remainder of this document will be in Finnish.
 
 <img src='https://i.imgur.com/KlXF2d8.png' alt='kuva' />
 
@@ -36,7 +36,7 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 
 #### Tilastot
 
-| Vuosi | Artikkelien lukumäärä |
+| Vuosi | Artikkelien<br/>lukumäärä |
 | :---: | :---: |
 | 2021 | 10484 |
 | 2020 | 42936 |
