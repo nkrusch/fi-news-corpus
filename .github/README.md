@@ -38,21 +38,21 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 
 | Vuosi | Artikkelien<br/>lukumäärä |
 | :---: | :---: |
-| 2021 | 13706 |
+| 2021 | 17181 |
 | 2020 | 42937 |
 | 2019 | 48698 |
-| 2018 | 9134 |
+| 2018 | 9137 |
 | 2017 | 247 |
-| 2016 | 155 |
+| 2016 | 156 |
 | 2015 | 66 |
 | 2014 | 15 |
 | 2013 | 1 |
 | 2012 | 1 |
-| **Yhteensä** | **114960** |
+| **Yhteensä** | **118439** |
 
 Vanhin artikkeli: `2012-07-25`<br/>
-Uusin artikkeli: `2021-04-30`<br/>
-Tiedostojen lukumäärä: `230`
+Uusin artikkeli: `2021-05-31`<br/>
+Tiedostojen lukumäärä: `237`
 
 Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jokaisesta uutisartikkelista, <a href="mailto:hello@neea.dev">kerro minulle</a>. Esimerkiksi jutun kategoria on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa. Päivitän tätä korpusta kuukausittain.
 
