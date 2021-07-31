@@ -1,4 +1,4 @@
-# Suomenkielinen Tekstikorpus 🇫🇮 📰
+# Suomenkielinen Tekstikorpus
 
 **Finnish Language Text Corpus**
 
