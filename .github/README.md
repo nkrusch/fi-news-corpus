@@ -59,7 +59,7 @@ Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätes
 
 #### Ajanjaksot
 
-Tämä on kronologinen kokoelma artikkeleja. Käytä [git tagejä](https://github.com/nkrusch/fi-news-corpus/releases) jos haluat löytää artikkeleja tiettyyn päivämäärään asti. Vaihtoehtoisesti voit rajata tiedostoja tunnisteiden perusteella.
+Tämä on kronologinen kokoelma artikkeleja. Voit rajata tiedostoja tunnisteiden perusteella.
 
 | Vuosi | Ensimmäinen | Viimeinen |
 | --- | --- | --- |
@@ -73,7 +73,7 @@ Huomio:
 
 - Tämä korpus alkaa virallisesti päivämäärästä 11.4.2018. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. Vanhempien artikkelien kokoelma (ja vuoden 2018 ensimmäisen artikkelin tunniste) saattaa muuttua.
 
-- Palvelin oli hetkellisesti pois päältä elokuussa 2021 n. 2 viikkoa (11.8-28.8.2021) Tämän ajanjakson artikkeleja on lisätty korpukseen jälkikäteen.
+- Palvelin oli hetkellisesti pois päältä elokuussa 2021 n. 2 viikkoa (11.8-28.8.2021). Tämän ajanjakson artikkeleja on lisätty korpukseen jälkikäteen.
 
 ### Lisenssi
 
