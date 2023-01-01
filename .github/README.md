@@ -18,34 +18,36 @@ Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä sam
  
 Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedostojen yleinen järjestys on seuraava:
 
-| Sarake | Kuvaus | Tyyppi | 
-| --- | --- | --- | 
-|`paivamaara` | alkuperäinen julkaisupäivä | ISO 8601 (UTC) |
-|`otsikko` | uutisartikkelin otsikko | string, NOT NULL |
-|`tiivistelma` | artikkelia kuvaava lisäteksti | string, NULL |
-|`kuva` | artikkelin kuva | string, NULL |
-|`id` | uniikki tunniste | string, NOT NULL |
+| Sarake        | Kuvaus                     | Tyyppi           | 
+|:--------------|:---------------------------|:-----------------| 
+| `paivamaara`  | alkuperäinen julkaisupäivä | ISO 8601 (UTC)   |
+| `otsikko`     | uutisartikkelin otsikko    | string, NOT NULL |
+| `tiivistelma` | lisäteksti                 | string, NULL     |
+| `kuva`        | artikkelin kuva            | string, NULL     |
+| `id`          | uniikki tunniste           | string, NOT NULL |
 
 #### Tilastot
 
-|    Vuosi     | Artikkelien<br/>lukumäärä |
-|:------------:|:-------------------------:|
-| 2022 | 37301 |
-| 2021 | 38922 |
-| 2020 | 42937 |
-| 2019 | 48699 |
-| 2018 | 9142 |
-| 2017 | 249 |
-| 2016 | 157 |
-| 2015 | 66 |
-| 2014 | 16 |
-| 2013 | 1 |
-| 2012 | 14 |
-| **Yhteensä** | **177504** |
+|    Vuosi     | Lukumäärä  |
+|:------------:|:----------:|
+|     2023     |     2      |
+|     2022     |   40874    |
+|     2021     |   38922    |
+|     2020     |   42937    |
+|     2019     |   48699    |
+|     2018     |    9142    |
+|     2017     |    249     |
+|     2016     |    157     |
+|     2015     |     66     |
+|     2014     |     16     |
+|     2013     |     1      |
+|     2012     |     14     |
+| **Yhteensä** | **181079** |
 
 Vanhin artikkeli: `2012-01-01`<br/>
-Uusin artikkeli: `2022-12-01`<br/>
-Tiedostojen lukumäärä: `178`
+Uusin artikkeli: `2023-01-01`<br/>
+Tiedostojen lukumäärä: `182`
+
 
 Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jokaisesta uutisartikkelista, se on on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa. Päivitän tätä korpusta kuukausittain.
 
@@ -53,13 +55,14 @@ Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätes
 
 Tämä on kronologinen kokoelma artikkeleja. Voit rajata tiedostoja tunnisteiden perusteella.
 
-| Vuosi | Ensimmäinen                        | Viimeinen                          |
-|-------|------------------------------------|------------------------------------|
-| 2022  | `F958F8B650D24923BA7B66EB968E9147` |                                    |
-| 2021  | `C8695FAF6FA548A4887678FCC91275CF` | `4E9ABCA927F1473A94AA2A4A17B82F4F` |
-| 2020  | `91EC5FB8EC88429588DC33EB1F0AD285` | `E4C877777DAA4F9599CF4600D5EC477A` |
-| 2019  | `08B54A39B9B5438B9CB94CE548D5321F` | `DF6A0D528F5F4041BC2AEEE156937EFC` |
-| 2018  | `201712282200634312`               | `0FF72F755B554FA889147BFBACAAE724` |
+| Vuosi  | Ensimmäinen                        | Viimeinen                          |
+|--------|------------------------------------|------------------------------------|
+| 2023   | `178E3C24DEB04188AFD601E28F71115F` |                                    |
+| 2022   | `F958F8B650D24923BA7B66EB968E9147` | `6C86A434AB254A3C96B577794EDE4F67` |
+| 2021   | `C8695FAF6FA548A4887678FCC91275CF` | `4E9ABCA927F1473A94AA2A4A17B82F4F` |
+| 2020   | `91EC5FB8EC88429588DC33EB1F0AD285` | `E4C877777DAA4F9599CF4600D5EC477A` |
+| 2019   | `08B54A39B9B5438B9CB94CE548D5321F` | `DF6A0D528F5F4041BC2AEEE156937EFC` |
+| 2018   | `201712282200634312`               | `0FF72F755B554FA889147BFBACAAE724` |
 
 Huomio:
 
