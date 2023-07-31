@@ -30,7 +30,7 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 
 |    Vuosi     | Lukumäärä  |
 |:------------:|:----------:|
-| 2023 | 23034 |
+| 2023 | 26788 |
 | 2022 | 40875 |
 | 2021 | 38922 |
 | 2020 | 42937 |
@@ -42,11 +42,11 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 | 2014 | 16 |
 | 2013 | 1 |
 | 2012 | 14 |
-| **Yhteensä** | **204112** |
+| **Yhteensä** | **207866** |
 
 Vanhin artikkeli: `2012-01-01`<br/>
-Uusin artikkeli: `2023-06-30`<br/>
-Tiedostojen lukumäärä: `205`
+Uusin artikkeli: `2023-07-31`<br/>
+Tiedostojen lukumäärä: `208`
 
 Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jokaisesta uutisartikkelista, se on on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa. Päivitän tätä korpusta kuukausittain.
 
