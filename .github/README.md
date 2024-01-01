@@ -2,25 +2,27 @@
 
 **Finnish Language Text Corpus**
 
-This is a Finnish news headlines text corpus. This dataset is a collection of news headlines and short summaries of text, organized by date, into csv files. The intended use of this dataset is for machine learning or related use case. The remainder of this document will be in Finnish.
+This is a Finnish news headlines text corpus. This dataset is a collection of news headlines and short summaries of text, organized by date, into csv files. The intended use of this data is e.g., machine learning or similar use case. The remainder of this document will be in Finnish.
 
 <img src='https://i.imgur.com/KlXF2d8.png' alt='kuva' />
 
-**Tämä on iltapäivälehtien otsikoista koottu tekstikorpus koneoppimiseen. Tämä aineisto sisältää uutisotsikoista koottuja tekstejä, jotka on tallennettu csv tiedostoihin. Jokaisesta uutisesta on tallennettu otsikko, lyhyt lisäteksti, kuva, sekä julkaisupäivämäärä. Arkisto on järjestetty kronologisesti.**
+**Tämä on iltapäivälehtien otsikoista koottu tekstikorpus. Tämä arkisto sisältää uutisotsikoista koottuja tekstejä csv-tiedostoina. Jokaisesta uutisesta on tallennettu otsikko, lyhyt lisäteksti, kuva-linkki, sekä julkaisupäivämäärä. Arkisto on järjestetty kronologisesti.**
 
 ### Tiedostojen kuvaus
 
-Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä saman verran rivejä (1000). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat artikkelit. 
- 
-Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedostojen yleinen järjestys:
+Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä saman verran rivejä (1000). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat artikkelit. Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. 
+
+#### Tiedostojen yleinen järjestys
 
 | Sarake        | Kuvaus                     | Tyyppi           | 
 |:--------------|:---------------------------|:-----------------| 
 | `paivamaara`  | alkuperäinen julkaisupäivä | ISO 8601 (UTC)   |
 | `otsikko`     | uutisartikkelin otsikko    | string, NOT NULL |
 | `tiivistelma` | lisäteksti                 | string, NULL     |
-| `kuva`        | artikkelin kuva            | string, NULL     |
+| `kuva`        | artikkelin kuva (URL)      | string, NULL     |
 | `id`          | uniikki tunniste           | string, NOT NULL |
+
+Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jostain uutisartikkelista, se on on mahdollista tunnisteen avulla, mutta ei mukana tässä arkistossa. Päivitän tätä korpusta kuukausittain.
 
 #### Tilastot
 
@@ -44,7 +46,6 @@ Vanhin artikkeli: `2012-01-01`<br/>
 Uusin artikkeli: `2023-12-31`<br/>
 Tiedostojen lukumäärä: `223`
 
-Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jostain uutisartikkelista, se on on mahdollista tuunisteen avulla, mutta ei mukana tässä arkistossa. Päivitän tätä korpusta kuukausittain.
 
 #### Ajanjaksot[^1][^2]
 
