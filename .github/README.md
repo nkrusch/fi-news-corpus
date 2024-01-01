@@ -30,7 +30,7 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 
 |    Vuosi     | Lukumäärä  |
 |:------------:|:----------:|
-| 2023 | 37699 |
+| 2023 | 41274 |
 | 2022 | 40875 |
 | 2021 | 38922 |
 | 2020 | 42937 |
@@ -42,30 +42,30 @@ Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. Tiedos
 | 2014 | 17 |
 | 2013 | 1 |
 | 2012 | 14 |
-| **Yhteensä** | **218778** |
+| **Yhteensä** | **222353** |
 
 Vanhin artikkeli: `2012-01-01`<br/>
-Uusin artikkeli: `2023-11-30`<br/>
-Tiedostojen lukumäärä: `219`
+Uusin artikkeli: `2023-12-31`<br/>
+Tiedostojen lukumäärä: `223`
 
 Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jokaisesta uutisartikkelista, se on on mahdollista, mutta ei tällä hetkellä ole mukana tässä arkistossa. Päivitän tätä korpusta kuukausittain.
 
 #### Ajanjaksot
 
-Tämä on kronologinen kokoelma artikkeleja. Voit rajata tiedostoja tunnisteiden perusteella.
+Tämä on kronologinen kokoelma artikkeleja. Voit rajata kokoelmaa tunnisteiden perusteella.
 
-| Vuosi  | Ensimmäinen                        | Viimeinen                          |
-|--------|------------------------------------|------------------------------------|
-| 2023   | `178E3C24DEB04188AFD601E28F71115F` |                                    |
-| 2022   | `F958F8B650D24923BA7B66EB968E9147` | `6C86A434AB254A3C96B577794EDE4F67` |
-| 2021   | `C8695FAF6FA548A4887678FCC91275CF` | `4E9ABCA927F1473A94AA2A4A17B82F4F` |
-| 2020   | `91EC5FB8EC88429588DC33EB1F0AD285` | `E4C877777DAA4F9599CF4600D5EC477A` |
-| 2019   | `08B54A39B9B5438B9CB94CE548D5321F` | `DF6A0D528F5F4041BC2AEEE156937EFC` |
-| 2018   | `201712282200634312`               | `0FF72F755B554FA889147BFBACAAE724` |
+| Vuosi | Ensimmäinen                        | Viimeinen                          |
+|-------|------------------------------------|------------------------------------|
+| 2023  | `178E3C24DEB04188AFD601E28F71115F` | `FB8143D7A2E048409E8CB61279225BD7` |
+| 2022  | `F958F8B650D24923BA7B66EB968E9147` | `6C86A434AB254A3C96B577794EDE4F67` |
+| 2021  | `C8695FAF6FA548A4887678FCC91275CF` | `4E9ABCA927F1473A94AA2A4A17B82F4F` |
+| 2020  | `91EC5FB8EC88429588DC33EB1F0AD285` | `E4C877777DAA4F9599CF4600D5EC477A` |
+| 2019  | `08B54A39B9B5438B9CB94CE548D5321F` | `DF6A0D528F5F4041BC2AEEE156937EFC` |
+| 2018  | `201712282200634312`               | `0FF72F755B554FA889147BFBACAAE724` |
 
 Huomio:
 
-- Tämä korpus alkaa virallisesti päivämäärästä 11.4.2018. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. Vanhempien artikkelien kokoelma (ja vuoden 2018 ensimmäisen artikkelin tunniste) saattaa muuttua.
+- Tämä korpus alkaa virallisesti päivämäärästä 4.11.2018. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet sivustolle uudestaan ja siten päätyneet osaksi tätä korpusta. Vanhempien artikkelien kokoelma (ja vuoden 2018 ensimmäisen artikkelin tunniste) saattaa muuttua.
 
-- Palvelin oli hetkellisesti pois päältä elokuussa 2021 n. 2 viikkoa (11.8-28.8.2021). Tämän ajanjakson artikkeleja on lisätty korpukseen jälkikäteen.
+- Palvelin oli hetkellisesti pois päältä 11.8-28.8.2021. Tämän ajanjakson artikkeleja on lisätty korpukseen jälkikäteen.
 
