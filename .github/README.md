@@ -28,7 +28,7 @@ Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätes
 
 |    Vuosi     | Lukumäärä  |
 |:------------:|:----------:|
-| 2024 | 3890 |
+| 2024 | 7494 |
 | 2023 | 41275 |
 | 2022 | 40875 |
 | 2021 | 38922 |
@@ -41,11 +41,11 @@ Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätes
 | 2014 | 17 |
 | 2013 | 1 |
 | 2012 | 14 |
-| **Yhteensä** | **226244** |
+| **Yhteensä** | **229848** |
 
 Vanhin artikkeli: `2012-01-01`<br/>
-Uusin artikkeli: `2024-01-31`<br/>
-Tiedostojen lukumäärä: `227`
+Uusin artikkeli: `2024-02-29`<br/>
+Tiedostojen lukumäärä: `230`
 
 
 #### Ajanjaksot[^1][^2]
