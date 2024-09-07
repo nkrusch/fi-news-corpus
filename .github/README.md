@@ -12,8 +12,6 @@ This is a Finnish news headlines text corpus. This dataset is a collection of ne
 
 Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä saman verran rivejä (1000). Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat artikkelit. Jokainen csv-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. 
 
-#### Tiedostojen yleinen järjestys
-
 | Sarake        | Kuvaus                     | Tyyppi           | 
 |:--------------|:---------------------------|:-----------------| 
 | `paivamaara`  | alkuperäinen julkaisupäivä | ISO 8601 (UTC)   |
@@ -22,7 +20,7 @@ Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä sam
 | `kuva`        | artikkelin kuva (URL)      | string, NULL     |
 | `id`          | uniikki tunniste           | string, NOT NULL |
 
-Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jostain uutisartikkelista, se on on mahdollista tunnisteen avulla, mutta ei mukana tässä arkistossa. Päivitän tätä korpusta kuukausittain.
+Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. Jos haluat enemmän tietoa jostain uutisartikkelista, se on on mahdollista tunnisteen avulla, mutta ei mukana tässä arkistossa.
 
 #### Tilastot
 
