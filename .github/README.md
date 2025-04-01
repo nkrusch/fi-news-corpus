@@ -33,7 +33,7 @@ Jos haluat enemmän tietoa jostain uutisartikkelista, se on on mahdollista tunni
 
 |    Vuosi     | Lukumäärä  |
 |:------------:|:----------:|
-| 2025 | 7547 |
+| 2025 | 11652 |
 | 2024 | 41012 |
 | 2023 | 41279 |
 | 2022 | 40875 |
@@ -47,11 +47,11 @@ Jos haluat enemmän tietoa jostain uutisartikkelista, se on on mahdollista tunni
 | 2014 | 17 |
 | 2013 | 1 |
 | 2012 | 14 |
-| **Yhteensä** | **270917** |
+| **Yhteensä** | **275022** |
 
 Vanhin artikkeli: `2012-01-01`<br/>
-Uusin artikkeli: `2025-02-28`<br/>
-Tiedostojen lukumäärä: `271`
+Uusin artikkeli: `2025-04-01`<br/>
+Tiedostojen lukumäärä: `276`
 
 #### Ajanjaksot[^1][^2]
 
