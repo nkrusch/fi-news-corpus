@@ -10,7 +10,6 @@ type: dataset
 authors:
   - given-names: Neea
     family-names: Rusch
-    email: neearusch@gmail.com
     orcid: 'https://orcid.org/0000-0002-7354-5330'
 identifiers:
   - type: url
