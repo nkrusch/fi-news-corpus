@@ -11,8 +11,6 @@ authors:
   - given-names: Neea
     family-names: Rusch
     email: neearusch@gmail.com
-    name-particle: Neea
-    affiliation: Uppsala University
     orcid: 'https://orcid.org/0000-0002-7354-5330'
 identifiers:
   - type: url
@@ -22,13 +20,14 @@ repository-code: 'https://github.com/nkrusch/fi-news-corpus'
 abstract: >-
   Finnish Language text corpus is a collection of Finnish
   news headlines, that have appeared in Iltalehti, collected
-  in real-time since 2018. The dataset contains dated
-  entires with headlines, short summaries, and image
-  addresses. As of 2026, the corpus has >300000 entries.
+  since 2018. The dataset contains dated entires with headlines, 
+  short summaries, and images. As of 2026, the corpus has over 
+  300000 entries.
 keywords:
   - news
-  - corpus
-  - text
+  - uutiset
+  - text corpus
   - Finnish
   - suomi
+  - Iltalehti
 license: MIT
