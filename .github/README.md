@@ -38,19 +38,21 @@ Jos haluat enemmän tietoa artikkelista, tiedon haku on mahdollista tunnisteen a
 
 ### Tilastot
 
-    Vuosi   Määrä             Vuosi   Määrä          Vuosi   Määrä
-    -----   -----             -----   -----          -----   -----
-    2026        0             2021    38922          2016      157
-    2025    48416             2020    42937          2015       66 
-    2024    41013             2019    48699          2014       17 
-    2023    41280             2018     9142          2013        1 
-    2022    40875             2017      249          2012       14
+<pre>
+Vuosi   Määrä      Vuosi   Määrä      Vuosi   Määrä
+-----   -----      -----   -----      -----   -----
+2025    48416      2020    42937      2015       66
+2024    41013      2019    48699      2014       17
+2023    45158      2018     9142      2013        1
+2022    40875      2017      249      2012       14
+2021    38922      2016      157                   
+</pre>
 
-| Tiedostoja yhteensä   |     311788 |
+| Yhteensä              | 315666     |
 |-----------------------|-----------:|
 | Vanhin artikkeli      | 2012-01-01 |
 | Uusin artikkeli       | 2025-12-31 |
-| Tiedostojen lukumäärä |        312 |
+| Tiedostojen lukumäärä | 316        |
 
 ### Ajanjaksot[^1][^2]
 
