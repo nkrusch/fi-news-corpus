@@ -9,7 +9,7 @@ The remainder of this document will be in Finnish.
 
 <div align="center">
 <picture>
-<img src='https://i.imgur.com/KlXF2d8.png' alt='kuva' />
+<img src='../media/banner.png' alt='kuva' />
 </picture>
 </div>
 
@@ -18,7 +18,6 @@ Tämä arkisto sisältää uutisotsikoista koottuja tekstejä CSV-tiedostoina.
 Jokaisesta uutisesta on tallennettu otsikko, lyhyt lisäteksti, kuva-linkki, sekä julkaisupäivämäärä. 
 Arkisto on järjestetty kronologisesti.
 
----
 
 ## Tiedostojen kuvaus
 
@@ -68,14 +67,14 @@ Tämä on kronologinen kokoelma artikkeleja. Voit rajata kokoelmaa esim. tunnist
 | 2019  | `08B54A39B9B5438B9CB94CE548D5321F` | `DF6A0D528F5F4041BC2AEEE156937EFC` |
 | 2018  | `201712282200634312`               | `0FF72F755B554FA889147BFBACAAE724` |
 
-
+<br/>
 <div align="center">
 <picture>
 <img src="../media/wordcloud.png" alt="sanapilvi">
 </picture>
-<br/><i>Sanapilvi.</i> Yleisimmät puheenaiheet vuosina 2012&mdash;2025.
+<br/><br/><i>Sanapilvi.</i> Yleisimmät puheenaiheet vuosina 2012&mdash;2025.
 </div>
-<br/>
+<br/><br/>
 
 [^1]: Tämä korpus alkaa virallisesti päivämäärästä 4.11.2018. Osa artikkeleista on alun perin huomattavasti vanhempia. Vanhempia artikkeleja on muokattu alkuperäisen julkaisupäivän jälkeen, mistä syystä kyseiset artikkelit ovat ilmestyneet Iltalehden sivustolle uudestaan, ja siten päätyneet osaksi tätä korpusta. Vanhempien artikkelien kokoelma (ja vuoden 2018 ensimmäisen artikkelin tunniste) saattaa muuttua.
 
