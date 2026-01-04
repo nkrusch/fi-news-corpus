@@ -87,10 +87,11 @@ for i, (ax, lemma) in enumerate(zip(axes, TARGET_LEMMAS)):
     ax.set_ylim([0, 1024])
     ax.set_yscale('log', base=2)
     ax.yaxis.set_major_formatter(ScalarFormatter())
-    xticks = range(0, len(df), 10)
+    xticks = range(0, len(df), 12)
     ax.set_xticks(xticks)
-    labels = [x[2:] for x in df["month"].iloc[list(xticks)]]
-    ax.set_xticklabels(labels, rotation=45)
+    labels = [str(int(x[5:])) + '/' + x[2:4]
+              for x in df["month"].iloc[list(xticks)]]
+    ax.set_xticklabels(labels, rotation=30)
 
 fig.suptitle('Sanojen kuukausittainen esiintymistiheys', weight='bold')
 fig.text(0.5, 0.04, "Kuukausi", ha="center")
