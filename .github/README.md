@@ -42,17 +42,17 @@ Jos haluat enemmän tietoa artikkelista, tiedon haku on mahdollista tunnisteen a
 Vuosi   Määrä      Vuosi   Määrä      Vuosi   Määrä
 -----   -----      -----   -----      -----   -----
 2025    48416      2020    42937      2015       66
-2024    41013      2019    48699      2014       17
+2024    44613      2019    48699      2014       17
 2023    45158      2018     9142      2013        1
 2022    40875      2017      249      2012       14
 2021    38922      2016      157                   
 </pre>
 
-| Yhteensä              | 315666     |
+| Yhteensä              | 319266     |
 |-----------------------|-----------:|
 | Vanhin artikkeli      | 2012-01-01 |
 | Uusin artikkeli       | 2025-12-31 |
-| Tiedostojen lukumäärä | 316        |
+| Tiedostojen lukumäärä | 320        |
 
 ### Ajanjaksot[^1][^2]
 
