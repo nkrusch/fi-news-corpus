@@ -25,13 +25,13 @@ Tämä arkisto koostuu useasta tiedostosta (shard) joista jokainen sisältä sam
 Nämä osat on luotu aikajärjestyksessä, eli `shard-0` sisältää vanhimmat julkaistut artikkelit, ja suurin shard numero sisältää uusimmat artikkelit. 
 Jokainen CSV-tiedosto sisältää sarakeotsikot ensimmäisellä rivillä. 
 
-| Sarake        | Kuvaus                     | Tyyppi           | 
-|:--------------|:---------------------------|:-----------------| 
-| `paivamaara`  | alkuperäinen julkaisupäivä | ISO 8601 (UTC)   |
-| `otsikko`     | uutisartikkelin otsikko    | string, NOT NULL |
-| `tiivistelma` | lisäteksti                 | string, NULL     |
-| `kuva`        | artikkelin kuva (URL)      | string, NULL     |
-| `id`          | uniikki tunniste           | string, NOT NULL |
+| Sarake        | Kuvaus                     | Tyyppi                   | 
+|:--------------|:---------------------------|:-------------------------| 
+| `paivamaara`  | alkuperäinen julkaisupäivä | ISO 8601 (UTC), NOT NULL |
+| `otsikko`     | uutisartikkelin otsikko    | string, NOT NULL         |
+| `tiivistelma` | lisäteksti                 | string, NULL             |
+| `kuva`        | artikkelin kuva (URL)      | string, NULL             |
+| `id`          | uniikki tunniste           | string, NOT NULL         |
 
 Jokaisella julkaistulla artikkelilla on uniikki tunniste, ja tiedostoja kerätessä on varmistettu että tämä korpus ei sisällä kaksoiskappaleita. 
 Jos haluat enemmän tietoa artikkelista, tiedon haku on mahdollista tunnisteen avulla (tämä arkisto ei sisällä lähdekoodia lisätietojen hakua varten).
@@ -67,12 +67,20 @@ Tämä on kronologinen kokoelma artikkeleja. Voit rajata kokoelmaa esim. tunnist
 | 2019  | `08B54A39B9B5438B9CB94CE548D5321F` | `DF6A0D528F5F4041BC2AEEE156937EFC` |
 | 2018  | `201712282200634312`               | `0FF72F755B554FA889147BFBACAAE724` |
 
-<br/>
+## Analyysejä
+
 <div align="center">
 <picture>
 <img src="../media/wordcloud.png" alt="sanapilvi">
 </picture>
 <br/><br/><i>Sanapilvi.</i> Yleisimmät puheenaiheet vuosina 2012&mdash;2025.
+</div>
+<br/><br/>
+
+<div align="center">
+<picture>
+<img src="../media/freq.png" alt="sanatiheys" width="700">
+</picture>
 </div>
 <br/><br/>
 
