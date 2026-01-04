@@ -16,11 +16,11 @@ from nltk.corpus import stopwords
 CORPUS_PATH = "../corpus"
 OUTPUT_FILE = "../media/wordcloud.png"
 COLUMNS = ['otsikko', 'tiivistelma']
-IGNORE = {
+IGNORE = set(
     "aika,asia,ei,että,hetki,ihminen,il,iltalehden,iltalehti,ja,jolla,jos,"
     "kausi,kerta,kun,lapsi,maa,mies,miksi,myös,nainen,ne,niin,olen,on,osa,"
     "paikka,poika,päivä,se,syy,taas,tapa,tilanne,tuo,tämä,vaan,video,viikko,"
-    "voi,vuosi,yle,äiti,kuva,kyse,apu,iltalehde".split(',')}
+    "voi,vuosi,yle,äiti,kuva,kyse,apu,iltalehde".split(','))
 
 texts = []
 for file in tqdm([f for f in os.listdir(CORPUS_PATH)
@@ -38,9 +38,8 @@ for text in tqdm(texts, desc="Processing text"):
             if lemma.isalpha() and lemma not in STOPWORDS:
                 noun_counts[lemma] += 1
 
-wc = WordCloud(
-    width=1600, height=800, background_color="white",
-    max_words=200, colormap="viridis")
+wc = WordCloud(width=1600, height=800, background_color="white",
+               max_words=200, colormap="viridis")
 wc.generate_from_frequencies(noun_counts)
 plt.figure(figsize=(14, 7))
 plt.imshow(wc, interpolation="bilinear")

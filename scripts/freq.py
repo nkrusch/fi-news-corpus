@@ -17,7 +17,7 @@ CACHE_FILE = "monthly_word_counts.csv"
 START_YEAR, END_YEAR = (2019, 2025)
 BATCH_SIZE = 64
 TARGET_LEMMAS = ["venäjä", "koronavirus", "yhdysvallat", "trump"]
-COLORS = ["#2196F3", "#FF9800", "#00E676", "#EC407A"]
+COLORS = ["#472A7A", "#256C7F", "#44C070", "#D0E11D"]
 
 if os.path.exists(CACHE_FILE):
     counts_df = pd.read_csv(CACHE_FILE)
@@ -71,15 +71,10 @@ for lemma in TARGET_LEMMAS:
           .reset_index())
     dfs[lemma] = df
 
-fig, axes = plt.subplots(
-    2, 2,
-    figsize=(8, 8),
-    sharex=True,
-    sharey=True
-)
-axes = axes.flatten()
 plt.rcParams['font.sans-serif'] = ['Noto Sans', 'Arial']
 plt.rcParams["font.family"] = "sans-serif"
+fig, axes = plt.subplots(2, 2, figsize=(8, 8), sharex=True, sharey=True)
+axes = axes.flatten()
 for i, (ax, lemma) in enumerate(zip(axes, TARGET_LEMMAS)):
     df = dfs[lemma]
     ax.margins(x=.0, y=.0)
