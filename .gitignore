@@ -1,1 +1,2 @@
 scripts/*.csv
+scripts/__pycache__

@@ -2,28 +2,22 @@ import os
 import warnings
 from collections import Counter
 
-import matplotlib.pyplot as plt
 import pandas as pd
 import spacy
 from matplotlib.ticker import ScalarFormatter
 from tqdm import tqdm
 
+from common import *
+
+OUTPUT_FILE = "../media/freq.png"
+CACHE_FILE = "monthly_counts.csv"
 WORDS = ["venäjä", "koronavirus", "yhdysvallat", "trump"]
 COLOR = ["#472A7A", "#256C7F", "#44C070", "#D0E11D"]
-START, END = (2019, 2025)
-OUTPUT_FILE = "../media/freq.png"
 PLT_TITLE = 'Sanojen kuukausittainen esiintymistiheys'
-AXY, AXX = 'Lukumäärä', 'Kuukausi'
-PLOTS_MN = (2, 2)
-
-CORPUS_PATH = "../corpus"
-CACHE_FILE = "monthly_counts.csv"
-DATE, TEXTS = "paivamaara", ["otsikko", "tiivistelma"]
 MTH, FRQ, WRD = 'month', 'frequency', 'word'
-BATCH_SIZE = 64
-
-plt.rcParams['font.sans-serif'] = ['Menlo', 'Arial']
-plt.rcParams["font.family"] = "sans-serif"
+AXY, AXX = 'Lukumäärä', 'Kuukausi'
+START, END = (2019, 2025)
+PLOTS_MN = (2, 2)
 
 if os.path.exists(CACHE_FILE):
     cdf = pd.read_csv(CACHE_FILE)
@@ -34,9 +28,8 @@ else:
         [f'{y}-{m:>02}' for m in list(range(1, 13))] for y
         in range(START, END + 1)] for item in sublist]])
     monthly_counts = {lemma: sub_keys.copy() for lemma in WORDS}
-    files = [f for f in os.listdir(CORPUS_PATH) if f.endswith(".csv")]
 
-    for file in tqdm(files, desc="Processing files"):
+    for file in tqdm(files(), desc="Processing files"):
         df = pd.read_csv(os.path.join(CORPUS_PATH, file))
         if set(TEXTS + [DATE]).issubset(df.columns):
             df[DATE] = pd.to_datetime(df[DATE], utc=True, errors="coerce")
@@ -46,7 +39,7 @@ else:
             months = df[DATE].dt.to_period("M").astype(str).tolist()
             texts = df[TEXTS].astype(str).to_numpy().flatten()
             tokens = [map(lambda t: t.lemma_.lower(), doc) for doc
-                      in nlp.pipe(texts.tolist(), batch_size=BATCH_SIZE)]
+                      in nlp.pipe(texts.tolist(), batch_size=64)]
             for doc, mth in zip(tokens, months):
                 for w, c in Counter(filter(WORDS.__contains__, doc)).items():
                     monthly_counts[w][mth] += c
