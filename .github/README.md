@@ -71,12 +71,10 @@ Tämä on kronologinen kokoelma artikkeleja. Voit rajata kokoelmaa esim. tunnist
 
 ## Analyysejä
 
-<br/><br/>
+<br/>
 <div align="center">
-<strong>Sanapilvi: Yleisimmät puheenaiheet vuosina 2012&mdash;2025.</strong>
-<br/><br/>
 <picture>
-<img src="../media/wordcloud.png" alt="sanapilvi">
+<img src="../media/wordcloud.png" alt="sanapilvi"  width="750">
 </picture>
 </div>
 <br/><br/>
