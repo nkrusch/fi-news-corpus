@@ -41,18 +41,19 @@ Jos haluat enemmän tietoa artikkelista, tiedon haku on mahdollista tunnisteen a
 <pre>
 Vuosi   Määrä      Vuosi   Määrä      Vuosi   Määrä
 -----   -----      -----   -----      -----   -----
-2025    48416      2020    42937      2015       66
-2024    44613      2019    48699      2014       17
+2026     4231      2021    38922      2016      157
+2025    48420      2020    42937      2015       66
+2024    44614      2019    48699      2014       17
 2023    45158      2018     9142      2013        1
 2022    40875      2017      249      2012       14
-2021    38922      2016      157                   
 </pre>
 
-| Yhteensä              | 319266     |
+| Yhteensä              | 323502     |
 |-----------------------|-----------:|
 | Vanhin artikkeli      | 2012-01-01 |
-| Uusin artikkeli       | 2025-12-31 |
-| Tiedostojen lukumäärä | 320        |
+| Uusin artikkeli       | 2026-01-31 |
+| Tiedostojen lukumäärä | 324        |
+
 
 ### Ajanjaksot[^1][^2]
 
@@ -60,7 +61,8 @@ Tämä on kronologinen kokoelma artikkeleja. Voit rajata kokoelmaa esim. tunnist
 
 | Vuosi | Ensimmäinen                        | Viimeinen                          |
 |-------|------------------------------------|------------------------------------|
-| 2025  | `6660598F65BC4334ACBFE96E94D775C9` |                                    |
+| 2026  | `5F00B73BAFC643588551A81694F6590A` |                                    |
+| 2025  | `6660598F65BC4334ACBFE96E94D775C9` | `D25C85051F624E4880E96ADEA126A225` |
 | 2024  | `FFD672D52C594F0FB58FB0E295EB3EF8` | `93BF99AB2E78400EA3810B43180C8DCF` |
 | 2023  | `178E3C24DEB04188AFD601E28F71115F` | `FB8143D7A2E048409E8CB61279225BD7` |
 | 2022  | `F958F8B650D24923BA7B66EB968E9147` | `6C86A434AB254A3C96B577794EDE4F67` |
